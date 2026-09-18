@@ -1,5 +1,5 @@
-baseURL = "https://quan1407.github.io/MinhQuanAWS/"
-relativeURLs = false
+baseURL = "https://minhquan0409.github.io/AWS_Workshop_Internship/"
+relativeURLs = true
 canonifyURLs = true
 defaultContentLanguage = "en"
 
@@ -8,7 +8,7 @@ theme = "hugo-theme-learn"
 
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
@@ -17,10 +17,10 @@ home = [ "HTML", "RSS", "JSON"]
   editURL = ""
   description = ""
   author = "thienlh@thienlu.com"
-  showVisitedLinks = true
+  showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
 [Languages]
 [Languages.en]
 title = "Internship Report"
@@ -47,7 +47,7 @@ languageName = "Tiếng Việt"
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
 identifier = "AWS Study Group"
-url = "http://awsstudygroup.com"
+url = "https://awsstudygroup.com"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
